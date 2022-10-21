@@ -18,7 +18,7 @@ from django.urls import path
 from AppCoder.views import familiares, lista_familiares
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('agrega-familia/<nombre>/<edad>/<fecha>', familiares),
+    path('agrega-familia/<nombre>/<edad>/<fechaDeNac>', familiares),
     path('lista-familia/', lista_familiares),
 
 ]
